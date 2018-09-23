@@ -1,0 +1,426 @@
+#SECTION_1 {
+    height: 358px;
+    width: 920px;
+    perspective-origin: 460px 179px;
+    transform-origin: 460px 179px;
+    font: normal normal normal normal 16px/16px adobe-garamond-pro-1, adobe-garamond-pro-2, Georgia, 'Times New Roman', Times, serif;
+    margin: 0px 0px 20px;
+}/*#SECTION_1*/
+
+#HEADER_2 {
+    display: inline-block;
+    height: 55px;
+    left: 0px;
+    position: relative;
+    top: 0px;
+    width: 920px;
+    z-index: 1500;
+    perspective-origin: 460px 27.5px;
+    transform-origin: 460px 27.5px;
+    background: rgba(0, 0, 0, 0) none repeat-x scroll 0% 0% / auto padding-box border-box;
+    font: normal normal normal normal 16px/55px adobe-garamond-pro-1, adobe-garamond-pro-2, Georgia, 'Times New Roman', Times, serif;
+}/*#HEADER_2*/
+
+#H2_3 {
+    color: rgb(76, 92, 93);
+    float: left;
+    height: 55px;
+    width: 47.046875px;
+    perspective-origin: 23.515625px 27.5px;
+    transform-origin: 23.515625px 27.5px;
+    border: 0px none rgb(76, 92, 93);
+    font: normal normal normal normal 18px/55px adobe-garamond-pro-1, adobe-garamond-pro-2, Georgia, 'Times New Roman', Times, serif;
+    margin: 0px;
+    outline: rgb(76, 92, 93) none 0px;
+}/*#H2_3*/
+
+#A_4 {
+    color: rgb(192, 192, 192);
+    display: block;
+    float: right;
+    height: 55px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    vertical-align: middle;
+    width: 84.234375px;
+    perspective-origin: 42.109375px 27.5px;
+    transform-origin: 42.109375px 27.5px;
+    border: 0px none rgb(192, 192, 192);
+    font: normal normal normal normal 10px/55px adobe-garamond-pro-1, adobe-garamond-pro-2, Georgia, 'Times New Roman', Times, serif;
+    outline: rgb(192, 192, 192) none 0px;
+    transition: color 0.15s ease-out 0s;
+}/*#A_4*/
+
+#DIV_5 {
+    height: 299px;
+    position: relative;
+    width: 920px;
+    perspective-origin: 460px 149.5px;
+    transform-origin: 460px 149.5px;
+    font: normal normal normal normal 16px/16px adobe-garamond-pro-1, adobe-garamond-pro-2, Georgia, 'Times New Roman', Times, serif;
+}/*#DIV_5*/
+
+#DIV_5:after {
+    clear: both;
+    display: block;
+    visibility: hidden;
+    width: 920px;
+    perspective-origin: 460px 0px;
+    transform-origin: 460px 0px;
+    content: '.';
+    font: normal normal normal normal 16px/16px adobe-garamond-pro-1, adobe-garamond-pro-2, Georgia, 'Times New Roman', Times, serif;
+}/*#DIV_5:after*/
+
+#ARTICLE_6 {
+    float: left;
+    height: 299px;
+    position: relative;
+    width: 455px;
+    z-index: 5;
+    perspective-origin: 227.5px 149.5px;
+    transform-origin: 227.5px 149.5px;
+    font: normal normal normal normal 16px/16px adobe-garamond-pro-1, adobe-garamond-pro-2, Georgia, 'Times New Roman', Times, serif;
+    overflow: hidden;
+}/*#ARTICLE_6*/
+
+#DIV_7, #DIV_69 {
+    height: 256px;
+    position: relative;
+    width: 453px;
+    perspective-origin: 227.5px 129px;
+    transform-origin: 227.5px 129px;
+    border: 1px solid rgb(31, 31, 31);
+    font: normal normal normal normal 16px/16px adobe-garamond-pro-1, adobe-garamond-pro-2, Georgia, 'Times New Roman', Times, serif;
+    overflow: hidden;
+}/*#DIV_7, #DIV_69*/
+
+#DIV_8 {
+    display: none;
+    height: auto;
+    left: -455px;
+    position: absolute;
+    top: 0px;
+    width: auto;
+    z-index: 104;
+    align-self: stretch;
+    perspective-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    font: normal normal normal normal 16px/16px adobe-garamond-pro-1, adobe-garamond-pro-2, Georgia, 'Times New Roman', Times, serif;
+}/*#DIV_8*/
+
+#A_9, #A_17, #A_21, #A_25, #A_29, #A_33, #A_37, #A_41, #A_45, #A_49, #A_53, #A_57, #A_74, #A_77, #A_80, #A_83, #A_86, #A_89, #A_92, #A_95, #A_98, #A_101, #A_104, #A_107, #A_110, #A_113, #A_116, #A_119, #A_122, #A_125, #A_128, #A_131, #A_134, #A_137, #A_140, #A_143 {
+    color: rgb(192, 192, 192);
+    text-decoration: none;
+    perspective-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    border: 0px none rgb(192, 192, 192);
+    font: normal normal normal normal 16px/16px adobe-garamond-pro-1, adobe-garamond-pro-2, Georgia, 'Times New Roman', Times, serif;
+    outline: rgb(192, 192, 192) none 0px;
+    transition: color 0.25s ease-out 0s;
+}/*#A_9, #A_17, #A_21, #A_25, #A_29, #A_33, #A_37, #A_41, #A_45, #A_49, #A_53, #A_57, #A_74, #A_77, #A_80, #A_83, #A_86, #A_89, #A_92, #A_95, #A_98, #A_101, #A_104, #A_107, #A_110, #A_113, #A_116, #A_119, #A_122, #A_125, #A_128, #A_131, #A_134, #A_137, #A_140, #A_143*/
+
+#DIV_10, #DIV_18, #DIV_22, #DIV_26, #DIV_30, #DIV_34, #DIV_38, #DIV_42, #DIV_46, #DIV_50, #DIV_54, #DIV_58 {
+    background-position: 0px -58px;
+    color: rgb(192, 192, 192);
+    height: 42px;
+    left: 206px;
+    opacity: 0.800000011920929;
+    position: absolute;
+    top: 107px;
+    width: 42px;
+    z-index: 0;
+    align-self: stretch;
+    perspective-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    background: rgba(0, 0, 0, 0) url(http://cdnstatic.bethsoft.com/assets/images/buttons/video_arrow_sprite.png) no-repeat scroll 0px -58px / auto padding-box border-box;
+    border: 0px none rgb(192, 192, 192);
+    font: normal normal normal normal 16px/16px adobe-garamond-pro-1, adobe-garamond-pro-2, Georgia, 'Times New Roman', Times, serif;
+    outline: rgb(192, 192, 192) none 0px;
+    transition: opacity 0.25s ease-out 0s;
+}/*#DIV_10, #DIV_18, #DIV_22, #DIV_26, #DIV_30, #DIV_34, #DIV_38, #DIV_42, #DIV_46, #DIV_50, #DIV_54, #DIV_58*/
+
+#IMG_11, #IMG_19, #IMG_23, #IMG_27, #IMG_31, #IMG_35, #IMG_39, #IMG_43, #IMG_47, #IMG_51, #IMG_55, #IMG_59, #IMG_75, #IMG_78, #IMG_81, #IMG_84, #IMG_87, #IMG_90, #IMG_93, #IMG_96, #IMG_99, #IMG_102, #IMG_105, #IMG_108, #IMG_111, #IMG_114, #IMG_117, #IMG_120, #IMG_123, #IMG_126, #IMG_129, #IMG_132, #IMG_135, #IMG_138, #IMG_141, #IMG_144 {
+    color: rgb(192, 192, 192);
+    height: 256px;
+    width: 455px;
+    border: 0px none rgb(192, 192, 192);
+    font: normal normal normal normal 16px/16px adobe-garamond-pro-1, adobe-garamond-pro-2, Georgia, 'Times New Roman', Times, serif;
+    outline: rgb(192, 192, 192) none 0px;
+}/*#IMG_11, #IMG_19, #IMG_23, #IMG_27, #IMG_31, #IMG_35, #IMG_39, #IMG_43, #IMG_47, #IMG_51, #IMG_55, #IMG_59, #IMG_75, #IMG_78, #IMG_81, #IMG_84, #IMG_87, #IMG_90, #IMG_93, #IMG_96, #IMG_99, #IMG_102, #IMG_105, #IMG_108, #IMG_111, #IMG_114, #IMG_117, #IMG_120, #IMG_123, #IMG_126, #IMG_129, #IMG_132, #IMG_135, #IMG_138, #IMG_141, #IMG_144*/
+
+#DIV_12 {
+    height: 260px;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width: 455px;
+    z-index: 105;
+    align-self: stretch;
+    perspective-origin: 227.5px 130px;
+    transform-origin: 227.5px 130px;
+    font: normal normal normal normal 16px/16px adobe-garamond-pro-1, adobe-garamond-pro-2, Georgia, 'Times New Roman', Times, serif;
+}/*#DIV_12*/
+
+#A_13, #A_71 {
+    color: rgb(192, 192, 192);
+    text-decoration: none;
+    border: 0px none rgb(192, 192, 192);
+    font: normal normal normal normal 16px/16px adobe-garamond-pro-1, adobe-garamond-pro-2, Georgia, 'Times New Roman', Times, serif;
+    outline: rgb(192, 192, 192) none 0px;
+    transition: color 0.25s ease-out 0s;
+}/*#A_13, #A_71*/
+
+#DIV_14 {
+    background-position: 0px -58px;
+    color: rgb(192, 192, 192);
+    height: 42px;
+    left: 206px;
+    opacity: 0.800000011920929;
+    position: absolute;
+    top: 107px;
+    width: 42px;
+    z-index: 0;
+    align-self: stretch;
+    perspective-origin: 21px 21px;
+    transform-origin: 21px 21px;
+    background: rgba(0, 0, 0, 0) url(http://cdnstatic.bethsoft.com/assets/images/buttons/video_arrow_sprite.png) no-repeat scroll 0px -58px / auto padding-box border-box;
+    border: 0px none rgb(192, 192, 192);
+    font: normal normal normal normal 16px/16px adobe-garamond-pro-1, adobe-garamond-pro-2, Georgia, 'Times New Roman', Times, serif;
+    outline: rgb(192, 192, 192) none 0px;
+    transition: opacity 0.25s ease-out 0s;
+}/*#DIV_14*/
+
+#IMG_15, #IMG_72 {
+    color: rgb(192, 192, 192);
+    height: 256px;
+    width: 455px;
+    perspective-origin: 227.5px 128px;
+    transform-origin: 227.5px 128px;
+    border: 0px none rgb(192, 192, 192);
+    font: normal normal normal normal 16px/16px adobe-garamond-pro-1, adobe-garamond-pro-2, Georgia, 'Times New Roman', Times, serif;
+    outline: rgb(192, 192, 192) none 0px;
+}/*#IMG_15, #IMG_72*/
+
+#DIV_16, #DIV_20, #DIV_28, #DIV_36, #DIV_44, #DIV_52, #DIV_73, #DIV_79, #DIV_85, #DIV_91, #DIV_97, #DIV_103, #DIV_109, #DIV_115, #DIV_121, #DIV_127, #DIV_133, #DIV_139 {
+    display: none;
+    height: auto;
+    left: 455px;
+    position: absolute;
+    top: 0px;
+    width: auto;
+    align-self: stretch;
+    perspective-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    font: normal normal normal normal 16px/16px adobe-garamond-pro-1, adobe-garamond-pro-2, Georgia, 'Times New Roman', Times, serif;
+}/*#DIV_16, #DIV_20, #DIV_28, #DIV_36, #DIV_44, #DIV_52, #DIV_73, #DIV_79, #DIV_85, #DIV_91, #DIV_97, #DIV_103, #DIV_109, #DIV_115, #DIV_121, #DIV_127, #DIV_133, #DIV_139*/
+
+#DIV_24, #DIV_32, #DIV_48, #DIV_76, #DIV_88, #DIV_100, #DIV_112, #DIV_124, #DIV_136 {
+    display: none;
+    height: auto;
+    left: 455px;
+    position: absolute;
+    top: 0px;
+    width: auto;
+    align-self: stretch;
+    perspective-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    font: normal normal normal normal 16px/16px adobe-garamond-pro-1, adobe-garamond-pro-2, Georgia, 'Times New Roman', Times, serif;
+}/*#DIV_24, #DIV_32, #DIV_48, #DIV_76, #DIV_88, #DIV_100, #DIV_112, #DIV_124, #DIV_136*/
+
+#DIV_40, #DIV_82, #DIV_106, #DIV_130 {
+    display: none;
+    height: auto;
+    left: 455px;
+    position: absolute;
+    top: 0px;
+    width: auto;
+    align-self: stretch;
+    perspective-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    font: normal normal normal normal 16px/16px adobe-garamond-pro-1, adobe-garamond-pro-2, Georgia, 'Times New Roman', Times, serif;
+}/*#DIV_40, #DIV_82, #DIV_106, #DIV_130*/
+
+#DIV_56, #DIV_142 {
+    display: none;
+    height: auto;
+    left: -455px;
+    position: absolute;
+    top: 0px;
+    width: auto;
+    align-self: stretch;
+    perspective-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    font: normal normal normal normal 16px/16px adobe-garamond-pro-1, adobe-garamond-pro-2, Georgia, 'Times New Roman', Times, serif;
+}/*#DIV_56, #DIV_142*/
+
+#ASIDE_60, #ASIDE_145 {
+    height: 33px;
+    width: 455px;
+    perspective-origin: 227.5px 16.5px;
+    transform-origin: 227.5px 16.5px;
+    font: normal normal normal normal 16px/33px adobe-garamond-pro-1, adobe-garamond-pro-2, Georgia, 'Times New Roman', Times, serif;
+    margin: 8px 0px 0px;
+}/*#ASIDE_60, #ASIDE_145*/
+
+#A_61, #A_146 {
+    color: rgb(192, 192, 192);
+    text-decoration: none;
+    border: 0px none rgb(192, 192, 192);
+    font: normal normal normal normal 16px/33px adobe-garamond-pro-1, adobe-garamond-pro-2, Georgia, 'Times New Roman', Times, serif;
+    outline: rgb(192, 192, 192) none 0px;
+    transition: color 0.25s ease-out 0s;
+}/*#A_61, #A_146*/
+
+#H2_62 {
+    color: rgb(192, 192, 192);
+    float: left;
+    height: 33px;
+    vertical-align: middle;
+    width: 145.1875px;
+    perspective-origin: 72.59375px 16.5px;
+    transform-origin: 72.59375px 16.5px;
+    border: 0px none rgb(192, 192, 192);
+    font: normal normal normal normal 21px/33px adobe-garamond-pro-1, adobe-garamond-pro-2, Georgia, 'Times New Roman', Times, serif;
+    margin: 0px;
+    outline: rgb(192, 192, 192) none 0px;
+}/*#H2_62*/
+
+#DIV_63, #DIV_148 {
+    float: right;
+    height: 25px;
+    width: 49px;
+    perspective-origin: 29.5px 14px;
+    transform-origin: 29.5px 14px;
+    font: normal normal normal normal 16px/25px adobe-garamond-pro-1, adobe-garamond-pro-2, Georgia, 'Times New Roman', Times, serif;
+    padding: 3px 10px 0px 0px;
+}/*#DIV_63, #DIV_148*/
+
+#A_64 {
+    background-position: 0px 0px;
+    color: rgb(192, 192, 192);
+    display: inline-block;
+    height: 19px;
+    text-decoration: none;
+    vertical-align: middle;
+    width: 11px;
+    perspective-origin: 5.5px 9.5px;
+    transform-origin: 5.5px 9.5px;
+    background: rgba(0, 0, 0, 0) url(http://cdnstatic.bethsoft.com/assets/images/buttons/arrows_sprite.png) no-repeat scroll 0px 0px / auto padding-box border-box;
+    border: 0px none rgb(192, 192, 192);
+    font: normal normal normal normal 16px/25px adobe-garamond-pro-1, adobe-garamond-pro-2, Georgia, 'Times New Roman', Times, serif;
+    outline: rgb(192, 192, 192) none 0px;
+    transition: color 0.25s ease-out 0s;
+}/*#A_64*/
+
+#SPAN_65, #SPAN_150 {
+    display: inline-block;
+    height: 25px;
+    opacity: 0.119999997317791;
+    vertical-align: middle;
+    width: 1px;
+    z-index: 0;
+    perspective-origin: 0.5px 12.5px;
+    transform-origin: 0.5px 12.5px;
+    background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
+    font: normal normal normal normal 16px/25px adobe-garamond-pro-1, adobe-garamond-pro-2, Georgia, 'Times New Roman', Times, serif;
+    margin: 0px 9px;
+}/*#SPAN_65, #SPAN_150*/
+
+#A_66, #A_151 {
+    background-position: -24px 0px;
+    color: rgb(192, 192, 192);
+    display: inline-block;
+    height: 19px;
+    text-decoration: none;
+    vertical-align: middle;
+    width: 11px;
+    perspective-origin: 5.5px 9.5px;
+    transform-origin: 5.5px 9.5px;
+    background: rgba(0, 0, 0, 0) url(http://cdnstatic.bethsoft.com/assets/images/buttons/arrows_sprite.png) no-repeat scroll -24px 0px / auto padding-box border-box;
+    border: 0px none rgb(192, 192, 192);
+    font: normal normal normal normal 16px/25px adobe-garamond-pro-1, adobe-garamond-pro-2, Georgia, 'Times New Roman', Times, serif;
+    outline: rgb(192, 192, 192) none 0px;
+    transition: color 0.25s ease-out 0s;
+}/*#A_66, #A_151*/
+
+#DIV_67 {
+    float: left;
+    height: 16px;
+    position: relative;
+    width: 10px;
+    perspective-origin: 5px 8px;
+    transform-origin: 5px 8px;
+    font: normal normal normal normal 16px/16px adobe-garamond-pro-1, adobe-garamond-pro-2, Georgia, 'Times New Roman', Times, serif;
+}/*#DIV_67*/
+
+#ARTICLE_68 {
+    float: left;
+    height: 299px;
+    position: relative;
+    width: 455px;
+    z-index: 2;
+    perspective-origin: 227.5px 149.5px;
+    transform-origin: 227.5px 149.5px;
+    font: normal normal normal normal 16px/16px adobe-garamond-pro-1, adobe-garamond-pro-2, Georgia, 'Times New Roman', Times, serif;
+    overflow: hidden;
+}/*#ARTICLE_68*/
+
+#DIV_70 {
+    height: 260px;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width: 455px;
+    align-self: stretch;
+    perspective-origin: 227.5px 130px;
+    transform-origin: 227.5px 130px;
+    font: normal normal normal normal 16px/16px adobe-garamond-pro-1, adobe-garamond-pro-2, Georgia, 'Times New Roman', Times, serif;
+}/*#DIV_70*/
+
+#DIV_94, #DIV_118 {
+    display: none;
+    height: auto;
+    left: 455px;
+    position: absolute;
+    top: 0px;
+    width: auto;
+    align-self: stretch;
+    perspective-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    font: normal normal normal normal 16px/16px adobe-garamond-pro-1, adobe-garamond-pro-2, Georgia, 'Times New Roman', Times, serif;
+}/*#DIV_94, #DIV_118*/
+
+#H2_147 {
+    color: rgb(192, 192, 192);
+    float: left;
+    height: 33px;
+    vertical-align: middle;
+    width: 40.5px;
+    perspective-origin: 20.25px 16.5px;
+    transform-origin: 20.25px 16.5px;
+    border: 0px none rgb(192, 192, 192);
+    font: normal normal normal normal 21px/33px adobe-garamond-pro-1, adobe-garamond-pro-2, Georgia, 'Times New Roman', Times, serif;
+    margin: 0px;
+    outline: rgb(192, 192, 192) none 0px;
+}/*#H2_147*/
+
+#A_149 {
+    background-position: 0px 0px;
+    color: rgb(192, 192, 192);
+    display: inline-block;
+    height: 19px;
+    opacity: 0.5;
+    text-decoration: none;
+    vertical-align: middle;
+    width: 11px;
+    z-index: 0;
+    perspective-origin: 5.5px 9.5px;
+    transform-origin: 5.5px 9.5px;
+    background: rgba(0, 0, 0, 0) url(http://cdnstatic.bethsoft.com/assets/images/buttons/arrows_sprite.png) no-repeat scroll 0px 0px / auto padding-box border-box;
+    border: 0px none rgb(192, 192, 192);
+    font: normal normal normal normal 16px/25px adobe-garamond-pro-1, adobe-garamond-pro-2, Georgia, 'Times New Roman', Times, serif;
+    outline: rgb(192, 192, 192) none 0px;
+    transition: color 0.25s ease-out 0s;
+}/*#A_149*/
+

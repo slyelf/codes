@@ -1,0 +1,96 @@
+/*Other*/
+@font-face {
+	font-family: writing;
+	src: url(font/Other/Writing.ttf);
+}
+
+@font-face {
+	font-family: heading;
+	src: url(font/Other/Heading.ttf);
+}
+
+/*Garamond*/
+@font-face {
+	font-family: garamonditalic;
+	src: url(font/Garamond/Garamond-Ita.ttf);
+}
+
+@font-face {
+	font-family: garamondmed;
+	src: url(font/Garamond/Garamond-Med.ttf);
+}
+
+@font-face {
+	font-family: garamondmedita;
+	src: url(font/Garamond/Garamond-Medita.ttf);
+}
+
+@font-face {
+	font-family: garamond;
+	src: url(font/Garamond/Garamond-Reg.ttf);
+}
+
+/*Planewalker*/
+@font-face {
+	font-family: planewalker;
+	src: url(font/Planewalker/Planewalker.otf);
+}
+
+@font-face {
+	font-family: planewalker1;
+	src: url(font/Planewalker/Planewalker.ttf);
+}
+
+@font-face {
+	font-family: planewalkerita;
+	src: url(font/Planewalker/Planewalker-Italic.otf);
+}
+
+@font-face {
+	font-family: planewalkerbold;
+	src: url(font/Planewalker/Planewalker-Bold.otf);
+}
+
+@font-face {
+	font-family: planewalkerboldita;
+	src: url(font/Planewalker/Planewalker-Bold-Italic.otf);
+}
+
+/*Kingthings*/
+@font-face {
+	font-family: kingthings;
+	src: url(font/Kingthings/Kingthings Exeter.ttf);
+}
+
+@font-face {
+	font-family: kingthingspetrock;
+	src: url(font/Kingthings/Kingthings Petrock.ttf);
+}
+
+@font-face {
+	font-family: kingthingspetrocklight;
+	src: url(font/Kingthings/Kingthings Petrock light.ttf);
+}
+
+/*MorrisRomanBlack*/
+@font-face {
+	font-family: morrisromanblack;
+	src: url(font/MorrisRomanBlack/MorrisRomanBlack.ttf);
+}
+
+@font-face {
+	font-family: morrisromanblackalt;
+	src: url(font/MorrisRomanBlack/MorrisRomanBlackAlt.ttf);
+}
+
+/*Oblivion*/
+@font-face {
+	font-family: oblivion;
+	src: url(font/Oblivion/oblivion-font.ttf);
+}
+
+/*Runes*/
+@font-face {
+	font-family: runes;
+	src: url(font/Runes/runes.ttf);
+}

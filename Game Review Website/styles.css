@@ -1,0 +1,894 @@
+/*
+colors
+
+cyan: #00e1e8;
+dark cyan: #00979c;
+comp: $9c0500;
+
+orange: #D48872;
+light orange: #E6B9AD;
+comp: #72bed4;
+*/
+
+.titlepic {
+	width: 100%;
+	height: 350px;
+	background: url(londo.jpg) left top no-repeat transparent;
+	/*image taken from Dark Souls Pinterest https://i.pinimg.com/originals/c2/c6/9c/c2c69c99d6142fae25d88fa39a5e15b9.jpg*/
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: 0px 0px;
+	position: absolute;
+	z-index: -10;
+	top: 0px;
+	left: 0px;
+}
+body {
+	margin: 0;
+	font-family: Arial;
+	background: #fff;
+	color: #000;
+}.night-mode body {
+	background: #303030;
+	color: #c5c5c5;
+}
+
+
+.night-mode table {
+	color: #c5c5c5;
+}
+.night-mode h3 {
+	color: #7E8889;
+}
+.night-mode h3 {
+	color: #7E8889;
+}
+.night-mode hr {
+	border-color: #D48872;
+}
+hr {
+	border-color: #00979c;
+}
+
+
+
+
+.header {
+	margin-top: 350px;
+	padding: 0px 60px 70px;
+	background: #222;
+	color: #f1f1f1;
+}
+
+.content {
+	padding: 16px;
+}
+.text {
+	float: center;
+	text-align: left;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+.purple{
+	color: #000;
+	background: #ae86d8;
+	font-weight: bold;
+} .blue{
+	color: #000;
+	background: #7fa0fb;
+	font-weight: bold;
+} .green{
+	color: #000;
+	background: #7ae576;
+	font-weight: bold;
+}.orange{
+	color: #000;
+	background: #f9d814;
+	font-weight: bold;
+} .red{
+	color: #000;
+	background: #ff3352;
+	font-weight: bold;
+} .black{
+	color: #777;
+	background: #2C0040;
+	font-weight: bold;
+}
+
+.night-mode .purple{
+	color: #000;
+	background: #ae86d8;
+	font-weight: bold;
+} .night-mode .blue{
+	color: #000;
+	background: #7fa0fb;
+	font-weight: bold;
+} .night-mode .green{
+	color: #000;
+	background: #7ae576;
+	font-weight: bold;
+} .night-mode .yellow{
+	color: #000;
+	background: #ffc100;
+	font-weight: bold;
+}.night-mode .orange{
+	color: #000;
+	background: #f9d814;
+	font-weight: bold;
+} .night-mode .red{
+	color: #000;
+	background: #ff3352;
+	font-weight: bold;
+}
+
+.tpurple{
+	color: #ae86d8;
+} .tblue{
+	color: #7fa0fb;
+} .tgreen{
+	color: #7ae576;
+} .tyellow{
+	color: #ffc100;
+} .torange{
+	color: #f9d814;
+} .tred{
+	color: #ff3352;
+} 
+.night-mode .tpurple{
+	color: #ae86d8;
+} .night-mode .tblue{
+	color: #7fa0fb;
+} .night-mode .tgreen{
+	color: #7ae576;
+} .night-mode .tyellow{
+	color: #ffc100;
+} .night-mode .torange{
+	color: #f9d814;
+} .night-mode .tred{
+	color: #ff3352;
+}
+
+
+
+table {
+	width: 60%;
+	text-align: center;
+	margin-left: 20%;
+}
+table th{
+	background-color: #222;
+	color: #f1f1f1;
+}
+table td{
+	
+}
+table  a {
+	color: #00979c;
+	padding: 14px 20px 10px 10px;
+	font-weight: bold;
+	position: relative;
+}
+table  a:link {
+	color: #00979c;
+	text-decoration: none;
+	opacity: 0.6;
+}
+table  a:visited {
+	color: #00979c;
+	text-decoration: none;
+	opacity: 0.6
+}
+table  a:hover {
+	transition: ease-in-out all 0.45s;
+	color: #9c0500;
+	text-decoration: none;
+	opacity: 1;
+}
+table  a:active {
+	text-decoration: none;
+	opacity: 1;
+}
+.night-mode table {
+	width: 60%;
+	text-align: center;
+	margin-left: 20%;
+}
+.night-mode table th{
+	color: #f1f1f1;
+}
+.night-mode table td{
+	
+}
+.night-mode table  a {
+	color: #D48872;
+	padding: 14px 20px 10px 10px;
+	position: relative;
+}
+.night-mode table  a:link {
+	color: #D48872;
+	text-decoration: none;
+	opacity: 0.6;
+}
+.night-mode table  a:visited {
+	color: #D48872;
+	text-decoration: none;
+	opacity: 0.6
+}
+.night-mode table  a:hover {
+	transition: ease-in-out all 0.45s;
+	color: #72bed4;
+	text-decoration: none;
+	opacity: 1;
+}
+.night-mode table  a:active {
+	text-decoration: none;
+	opacity: 1;
+}
+
+
+
+.sticky {
+	margin-top: 0px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	padding: 0px 60px 0px;
+	z-index: 1;
+}
+.sticky li {
+	right: 120px;
+}
+.sticky + .content {
+	margin-top: 350px;
+	padding-top: 102px;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+
+
+/*
+ --
+ ----
+ ------
+Nav
+*/
+.nav li {
+	display: inline;
+	text-decoration: none;
+	width: 20px;
+	align-self: stretch;
+	font-size: 16px;
+	padding: 14px 10px 10px 10px;
+	text-transform: uppercase;
+	font-weight: bold;
+	position: relative;
+	text-align: center;
+	top: 10px;
+}
+.nav a {
+	color: #FFFFFF;
+	padding: 14px 20px 10px 10px;
+	position: relative;
+}
+.nav a:link {
+	color: #FFFFFF;
+	text-decoration: none;
+	opacity: 0.6;
+}
+.nav a:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+	opacity: 0.6
+}
+.nav a:hover {
+	transition: ease-in-out all 0.45s;
+	color: #FFFFFF;
+	text-decoration: none;
+	opacity: 1;
+}
+.nav a:active {
+	text-decoration: none;
+	opacity: 1;
+}
+/*
+Nav
+ ------
+ ----
+ --
+*/
+
+#page {
+	opacity: 1;
+}
+
+.TitleScore {
+	
+}
+.TitleScore li {
+	display: inline;
+	text-decoration: none;
+	width: 80%;
+	align-self: stretch;
+	font-weight: bold;
+	position: relative;
+	text-align: center;
+}
+.title {
+	left: -40px;
+	font-size: 32px;
+	bottom: -20px;
+}.night-mode .title {
+	color: #fff;
+}
+.score {
+	float: right;
+	right: -30%;
+	font-family: Impact;
+	font-size: 48px;
+	color: #00e1e8;
+}.night-mode .score {
+	color: #D48872;
+}
+.star img {
+	width: 20%;
+	float: right;
+
+}
+.titlefoot {
+	position: absolute;
+	left: 0;
+	right: 0;
+	height: 32px;
+	width: 100%;
+	/*background: #ececec;
+	color: #000;*/
+	background: #202020;
+	color: #c5c5c5;
+
+} .night-mode .titlefoot {
+	background: #202020;
+	color: #c5c5c5;
+}
+.titlefoot ul {
+	margin-top: 0px;
+	margin-left: -40px;
+	display: table;
+	width: 100%;
+	list-style: none;
+	overflow: auto;
+	white-space: nowrap;
+} .titlefoot li{
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	/*color: #999;*/
+	color: #878787;
+} .night-mode .titlefoot li{
+	color: #878787;
+}
+
+/* Fill: black;
+All were color 000 */
+.titlefoot a {
+	fill: white;
+	color: #FFF;
+	position: relative;
+} .titlefoot a:link {
+	color: #fffFFF;
+	text-decoration: none;
+	opacity: 0.6;
+} .titlefoot a:visited {
+	color: #FFF;
+	text-decoration: none;
+	opacity: 0.6
+} .titlefoot a:hover {
+	transition: ease-in-out all 0.45s;
+	color: #FFF;
+	text-decoration: none;
+	opacity: 1;
+} .titlefoot a:active {
+	text-decoration: none;
+	opacity: 1;
+}
+
+.steam {
+	width: 32;
+	height: 32;
+	/*content:url("steam-day.jpg");*/
+	content:url("steam-night.jpg");
+} .night-mode .steam {
+	content:url("steam-night.jpg");
+} .switch {
+	width: 32;
+	height: 32;
+	/*content:url("switch-day.jpg");*/
+	content:url("switch-night.jpg");
+} .night-mode .switch {
+	content:url("switch-night.jpg");
+}
+.al {
+	width: 32;
+	height: 32;
+	content:url("al.png");
+}
+.a-p {
+	width: 32;
+	height: 32;
+	content:url("ap.jpg");
+}
+.kit {
+	width: 32;
+	height: 32;
+	content:url("kit.jpg");
+}
+.mal {
+	width: 32;
+	height: 32;
+	content:url("mal.jpg");
+}
+
+
+.night-mode .titlefoot a {
+	fill: white;
+	color: #FFFFFF;
+	position: relative;
+} .night-mode .titlefoot a:link {
+	color: #FFFFFF;
+	text-decoration: none;
+	opacity: 0.6;
+} .night-mode .titlefoot a:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+	opacity: 0.6
+} .night-mode .titlefoot a:hover {
+	transition: ease-in-out all 0.45s;
+	color: #FFFFFF;
+	text-decoration: none;
+	opacity: 1;
+} .night-mode .titlefoot a:active {
+	text-decoration: none;
+	opacity: 1;
+}
+
+td, tr, img { padding: 0px; margin: 0px; border: none; }
+table { border-collapse: collapse; }
+
+.animelinks a{
+	padding: 0px;
+	margin-left: -4px;
+} .animelinks a:first-child{
+	margin-left: 0px;
+} .animelinks a:nth-child(2){
+	margin-left: -5px;
+} .animelinks a:nth-child(4){
+	margin-left: -5px;
+}
+
+.night-mode .animelinks a{
+	padding: 0px;
+	margin-left: -4px;
+} .night-mode .animelinks a:first-child{
+	margin-left: 0px;
+} .night-mode .animelinks a:nth-child(2){
+	margin-left: -5px;
+} .night-mode .animelinks a:nth-child(4){
+	margin-left: -5px;
+}
+
+/*
+ --
+ ----
+ ------
+Head PICS
+
+GAMES
+*/
+.gap {
+	margin-top:350px;
+}
+
+#NierHeadPic {
+	width: 100%;
+	height: 350px;
+	background: url(nier.jpg) left top no-repeat transparent;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: 0px 0px;
+	position: absolute;
+	z-index: -10;
+}
+
+#lisHeadPic {
+	width: 100%;
+	height: 350px;
+	background: url(lis.jpg) left top no-repeat transparent;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: 0px 0px;
+	position: absolute;
+	z-index: -10;
+}
+
+.night-mode #lisHeadPic {
+	width: 100%;
+	height: 350px;
+	background: url(lis3.jpg) left top no-repeat transparent;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: 0px 0px;
+	position: absolute;
+	z-index: -10;
+}
+
+#btsHeadPic {
+	width: 100%;
+	height: 350px;
+	background: url(bts.jpg) left top no-repeat transparent;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: 0px 0px;
+	position: absolute;
+	z-index: -10;
+}
+
+.night-mode #btsHeadPic {
+	width: 100%;
+	height: 350px;
+	background: url(bts2.jpg) left top no-repeat transparent;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: 0px 0px;
+	position: absolute;
+	z-index: -10;
+}
+
+#BayoHeadPic {
+	width: 100%;
+	height: 350px;
+	background: url(bayo.jpg) left top no-repeat transparent;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: 0px 0px;
+	position: absolute;
+	z-index: -10;
+}
+
+#Bayo2Pic {
+	width: 100%;
+	height: 350px;
+	background: url(bayo2.jpg) left top no-repeat transparent;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: 0px 0px;
+	position: absolute;
+	z-index: -10;
+}
+
+#FranHeadPic {
+	width: 100%;
+	height: 350px;
+	background: url(fran.jpg) left top no-repeat transparent;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: 0px 0px;
+	position: absolute;
+	z-index: -10;
+}
+
+#Ds3HeadPic {
+	width: 100%;
+	height: 350px;
+	background: url(ds3.jpg) left top no-repeat transparent;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: 0px 0px;
+	position: absolute;
+	z-index: -10;
+}
+
+#CupHeadPic {
+	width: 100%;
+	height: 350px;
+	background: url(cup.jpg) left top no-repeat transparent;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: 0px 0px;
+	position: absolute;
+	z-index: -10;
+}
+
+#BattleChefPic {
+	width: 100%;
+	height: 350px;
+	background: url(chef.jpg) left top no-repeat transparent;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: 0px 0px;
+	position: absolute;
+	z-index: -10;
+}
+
+#DokiPic {
+	width: 100%;
+	height: 350px;
+	background: url(doki.jpg) left top no-repeat transparent;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: 0px 0px;
+	position: absolute;
+	z-index: -10;
+}
+.night-mode #DokiPic {
+	width: 100%;
+	height: 350px;
+	background: url(doki2.jpg) left top no-repeat transparent;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: 0px 0px;
+	position: absolute;
+	z-index: -10;
+}
+
+#SubPic {
+	width: 100%;
+	height: 350px;
+	background: url(sub.jpg) left top no-repeat transparent;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: 0px 0px;
+	position: absolute;
+	z-index: -10;
+}
+
+#HollowPic {
+	width: 100%;
+	height: 350px;
+	background: url(hollow.jpg) left top no-repeat transparent;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: 0px 0px;
+	position: absolute;
+	z-index: -10;
+}
+
+#BotwPic {
+	width: 100%;
+	height: 350px;
+	background: url(botw.jpg) left top no-repeat transparent;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: 0px 0px;
+	position: absolute;
+	z-index: -10;
+}
+
+#FfxvPic {
+	width: 100%;
+	height: 350px;
+	background: url(ffxv.jpg) left top no-repeat transparent;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: 0px 0px;
+	position: absolute;
+	z-index: -10;
+}
+
+#BioPic {
+	width: 100%;
+	height: 350px;
+	background: url(bio.jpg) left top no-repeat transparent;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: 0px 0px;
+	position: absolute;
+	z-index: -10;
+}
+
+#InfPic {
+	width: 100%;
+	height: 350px;
+	background: url(inf.jpg) left top no-repeat transparent;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: 0px 0px;
+	position: absolute;
+	z-index: -10;
+}
+
+#SkyPic {
+	width: 100%;
+	height: 350px;
+	background: url(sky.jpg) left top no-repeat transparent;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: 0px 0px;
+	position: absolute;
+	z-index: -10;
+}
+
+#StarPic {
+	width: 100%;
+	height: 350px;
+	background: url(star.jpg) left top no-repeat transparent;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: 0px 0px;
+	position: absolute;
+	z-index: -10;
+}
+
+#MonPic {
+	width: 100%;
+	height: 350px;
+	background: url(mon.jpg) left top no-repeat transparent;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: 0px 0px;
+	position: absolute;
+	z-index: -10;
+}
+
+#FuriPic {
+	width: 100%;
+	height: 350px;
+	background: url(furi.jpg) left top no-repeat transparent;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: 0px 0px;
+	position: absolute;
+	z-index: -10;
+}
+
+#Sr2Pic {
+	width: 100%;
+	height: 350px;
+	background: url(sr2.jpg) left top no-repeat transparent;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: 0px 0px;
+	position: absolute;
+	z-index: -10;
+}
+
+#CelestePic {
+	width: 100%;
+	height: 350px;
+	background: url(celeste.png) left top no-repeat transparent;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: 0px 0px;
+	position: absolute;
+	z-index: -10;
+}
+
+/*
+GAMES
+
+Head PICS
+ ------
+ ----
+ --
+*/
+
+
+/*
+ --
+ ----
+ ------
+Head PICS
+
+ANIME
+*/
+
+#VioletPic {
+	width: 100%;
+	height: 350px;
+	background: url(violet.jpg) left top no-repeat transparent;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: 0px -300px;
+	position: absolute;
+	z-index: -10;
+}
+.night-mode #VioletPic {
+	width: 100%;
+	height: 350px;
+	background: url(violet.png) left top no-repeat transparent;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: 0px 0px;
+	position: absolute;
+	z-index: -10;
+}
+
+#AprilPic {
+	width: 100%;
+	height: 350px;
+	background: url(april.jpg) left top no-repeat transparent;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: 0px 0px;
+	position: absolute;
+	z-index: -10;
+}
+.night-mode #AprilPic {
+	width: 100%;
+	height: 350px;
+	background: url(april2.jpg) left top no-repeat transparent;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: 0px 0px;
+	position: absolute;
+	z-index: -10;
+}
+
+/*
+ANIME
+
+Head PICS
+ ------
+ ----
+ --
+*/
+
+.footer {
+	position: absolute;
+	left: 0;
+	right: 0;
+	height: 32px;
+	width: 100%;
+	background: #ececec;
+	color: #000;
+
+} .night-mode .footer {
+	background: #202020;
+	color: #c5c5c5;
+}
+
+#genre {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.right {
+	float: right;
+}
+.revtext {
+	padding-right: 200px;
+}
+

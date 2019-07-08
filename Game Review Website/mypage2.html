@@ -1,0 +1,123 @@
+<html>
+
+<head>
+	<title>Other Reviewers 45432066</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+	<div class="titlepic">
+
+	</div>
+
+	<div class="header" id="myHeader">
+		<div class="left">
+			<h2>Other Reviewers</h2>
+		</div>
+
+		<div class="right">
+			<ul class="nav">
+				<li><a href="Index.html">Home</a></li>
+				<li><a href="mypage1.html">Genres</a></li>
+				<li><a href="mypage2.html" id="page">Other Reviewers</a></li>
+				<li id="night-mode"><a role="button" href="#"><svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 16 16"><title>Night Mode</title><path d="M11.185 1.008A8.014 8.014 0 0 0 8.223 0 8.035 8.035 0 0 1 .798 12.861a8.033 8.033 0 0 0 13.328-.88 8.034 8.034 0 0 0-2.94-10.974z"/></svg></a></li>
+			</ul>
+		</div>
+	</div>
+	
+
+	<div class="content">
+		<div class="text">
+			<img src="gamespot.jpg" class="right">
+			<!--Image Taken from Gamespot's Youtube Channel https://www.youtube.com/user/gamespot-->
+			<h3>Gamespot</h3>
+			<p class="revtext">GameSpot is a video gaming website that provides news, reviews, previews, downloads, and other information on video games. The site was launched on May 1, 1996, created by Pete Deemer, Vince Broady and Jon Epstein. It was purchased by ZDNet, a brand which was later purchased by CNET Networks. CBS Interactive, which purchased CNET Networks in 2008, is the current owner of GameSpot. In addition to the information produced by GameSpot staff, the site also allows users to write their own reviews, blogs, and post on the site's forums. In 2004, GameSpot won "Best Gaming Website" as chosen by the viewers in Spike TV's second Video Game Award Show, and has won Webby Awards several times. The domain gamespot.com attracted at least 60 million visitors annually by 2008 according to a Compete.com study.</p>
+			<br><br>
+			<!--Taken from Wikipedia's gamespot https://en.wikipedia.org/wiki/GameSpot-->
+			
+			<br><hr><br>
+			
+			<img src="ign.jpg" class="right">
+			<!--Image Taken from IGN's youtube https://www.youtube.com/user/IGNentertainment-->
+			<h3>IGN</h3>
+			<p class="revtext">IGN (formerly Imagine Games Network) is an American video game and entertainment media company operated by IGN Entertainment Inc., a subsidiary of Ziff Davis and wholly owned by j2 Global. The company is located in San Francisco's SOMA district, and is headed by its former editor-in-chief, Peer Schneider. The IGN website was the brainchild of media entrepreneur Chris Anderson and launched on September 29, 1996. It focuses on games, films, television, comics, technology, and other media. Originally a network of desktop websites, IGN is now distributed on mobile platforms, console programs on the Xbox and PlayStation, FireTV, Roku, and via YouTube, Twitch, Hulu, and Snapchat. Originally, IGN was the flagship property of the parent company IGN Entertainment, which owned and operated several other websites oriented towards players' interests, games, and entertainment, such as Rotten Tomatoes, GameSpy, GameStats, VE3D, TeamXbox, Vault Network, FilePlanet, and AskMen, among others. IGN was sold to publishing company Ziff Davis in February 2013 and now operates as a J2 Global subsidiary.</p>
+			<!--Taken from Wikipedia's page on IGN https://en.wikipedia.org/wiki/IGN-->
+			
+			<br><hr><br>
+			
+			<img src="dunkey.jpg" class="right"/>
+			<!--Image Taken from Dunkey's Youtube Channel https://www.youtube.com/user/videogamedunkey-->
+			<h3>Dunkey</h3>
+			<p class="revtext">VideoGameDunkey is the gaming channel owned by Jason Gastrow, founded in October 2010. The channel has over 500,000 subs and over 140 million hits. The most viral video, "League of Legends: Best Champion", has over 2 million hits. The channel is often full of game commentary, play-throughs, and reviews ("dunkviews"), where he often gives games a score out of 5. So far no game has ever gotten a perfect 5/5 score.</p>
+			<br><br><br><br>
+			<!--Taken from Dunkey's page on the wiki dedicated to him http://dunkeypedia.wikia.com/wiki/Video_Game_Dunkey-->
+			
+			<br><hr><br>
+			
+			<img src="tb.jpg" class="right"/>
+			<!--Image Taken from Total Biscuits' Youtube Channel https://www.youtube.com/user/TotalHalibut-->
+			<h3>TotalBiscuit</h3>
+			<p class="revtext">John Bain (born 8 July 1984), commonly known by his online aliases TotalBiscuit, The Cynical Brit, and TotalHalibut, is a British gaming commentator and critic on YouTube, known for his role in professional casting for games such as StarCraft II and PlanetSide 2, as well as for his regular gaming commentary videos. According to Eurogamer, he has obtained a large following due to his video commentary on newly developed indie games and analysis of gaming news.[1] Bain is renowned for his candid, first impression critique of popular video games, where he has voiced strong support for consumer protection in the gaming industry. As of 15 August 2017, Bain has over two million subscribers on his YouTube channel.[2] In October 2015, Bain announced via Twitter that he has terminal cancer, with an average life expectancy of 2–3 years.[3] However, in January 2017, his cancer regressed and was then considered curable.[4] On 22 November 2017, he tweeted that the growth had started once again.</p>
+			<!--Taken from wikipedia's TotalBiscuit page https://en.wikipedia.org/wiki/TotalBiscuit-->
+		</div>
+	</div>
+
+
+	<script>
+		
+	;(function (window, document, undefined) {
+
+	'use strict';
+
+	// Feature test
+	if (!('localStorage' in window)) return;
+
+	// Get our newly insert toggle
+	var nightMode = document.querySelector('#night-mode');
+	if (!nightMode) return;
+
+	// When clicked, toggle night mode on or off
+	nightMode.addEventListener('click', function (event) {
+		event.preventDefault();
+		document.documentElement.classList.toggle('night-mode');
+		if ( document.documentElement.classList.contains('night-mode') ) {
+			localStorage.setItem('nightMode', true);
+			return;
+		}
+		localStorage.removeItem('nightMode');
+	}, false);
+
+	})(window, document);
+	
+	;(function (window, document, undefined) {
+	'use strict';
+	if (!('localStorage' in window)) return;
+	})(window, document);
+	
+	;(function (window, document, undefined) {
+	'use strict';
+	if (!('localStorage' in window)) return;
+	var nightMode = localStorage.getItem('nightMode');
+	if (!nightMode) return;
+	document.documentElement.className += ' night-mode';
+	})(window, document);
+	
+	
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+
+</body>
+
+</html>
